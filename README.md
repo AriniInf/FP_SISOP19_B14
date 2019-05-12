@@ -24,7 +24,7 @@ Buatlah program C yang menyerupai crontab menggunakan daemon dan thread. Ada seb
         - s6 = dimasukkan di line[ind].path;
         
 - Lalu dicek di setiap argumen s1-s5 , 
-  jika :  
+  - jika :  
         - s1 =  *
         - s2 =  *
         - s3 =  *
