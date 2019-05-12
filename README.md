@@ -27,9 +27,9 @@ Buatlah program C yang menyerupai crontab menggunakan daemon dan thread. Ada seb
   jika :  
         - s1 =  *
         - s2 =  *
-        - s3 =  "*" 
-        - s4 =  "*" 
-        - s5 =  "*" 
+        - s3 =  *
+        - s4 =  * 
+        - s5 =  *
   maka bernilai -1;
   - jika tidak maka setiap nilai s1-s5 di (atoi) //converts the string argument str to an integer
  
