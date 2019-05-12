@@ -1,6 +1,6 @@
 # FP_SISOP19_B14
 
-##SOAL
+## SOAL
 
 Buatlah program C yang menyerupai crontab menggunakan daemon dan thread. Ada sebuah file crontab.data untuk menyimpan config dari crontab. Setiap ada perubahan file tersebut maka secara otomatis program menjalankan config yang sesuai dengan perubahan tersebut tanpa perlu diberhentikan. Config hanya sebatas * dan 0-9 (tidak perlu /,- dan yang lainnya)
 
@@ -25,11 +25,11 @@ Buatlah program C yang menyerupai crontab menggunakan daemon dan thread. Ada seb
         
 - Lalu dicek di setiap argumen s1-s5 , 
   - jika :  
-        - s1 =  '*' 
-        - s2 =  '*' 
-        - s3 =  '*' 
-        - s4 =  '*' 
-        - s5 =  '*' 
+        - s1 =  "*"
+        - s2 =  "*" 
+        - s3 =  "*" 
+        - s4 =  "*" 
+        - s5 =  "*" 
   maka bernilai -1;
   - jika tidak maka setiap nilai s1-s5 di (atoi) //converts the string argument str to an integer
  
