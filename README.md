@@ -25,8 +25,8 @@ Buatlah program C yang menyerupai crontab menggunakan daemon dan thread. Ada seb
         
 - Lalu dicek di setiap argumen s1-s5 , 
   - jika :  
-        - s1 =  "*"
-        - s2 =  "*" 
+        - s1 =  *
+        - s2 =  *
         - s3 =  "*" 
         - s4 =  "*" 
         - s5 =  "*" 
